@@ -5,11 +5,19 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{3A2B9D9C-69A9-4DD1-898D-82FD89FF8F6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AnishchenkoVA.Sprint0.Task0.V0", "Tyuiu.AnishchenkoVA.Sprint0.Task0.V0\Tyuiu.AnishchenkoVA.Sprint0.Task0.V0.csproj", "{9EC16329-1123-49EF-BA40-1C941BC89ABD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.AnishchenkoVA.Sprint0.Task0.V0", "Tyuiu.AnishchenkoVA.Sprint0.Task0.V0\Tyuiu.AnishchenkoVA.Sprint0.Task0.V0.csproj", "{9EC16329-1123-49EF-BA40-1C941BC89ABD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{AF890A86-810B-4BF5-8463-40BA28EAD220}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AnishchenkoVA.Sprint0.Task1.V0", "Tyuiu.AnishchenkoVA.Sprint0.Task1.V0\Tyuiu.AnishchenkoVA.Sprint0.Task1.V0.csproj", "{7C2D5390-67BF-49A9-AC74-F581B33CEDAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.AnishchenkoVA.Sprint0.Task1.V0", "Tyuiu.AnishchenkoVA.Sprint0.Task1.V0\Tyuiu.AnishchenkoVA.Sprint0.Task1.V0.csproj", "{7C2D5390-67BF-49A9-AC74-F581B33CEDAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{B47CA59F-3CEE-4D49-A836-88677BF3A803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AnishchenkoVA.Sprint0.Task2.V0", "Tyuiu.AnishchenkoVA.Sprint0.Task2.V0\Tyuiu.AnishchenkoVA.Sprint0.Task2.V0.csproj", "{C524FAAF-163E-4F96-910B-FA4B4A522ECC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AnishchenkoVA.Sprint0.Task2.V0.Lib", "Tyuiu.AnishchenkoVA.Sprint0.Task2.V0.Lib\Tyuiu.AnishchenkoVA.Sprint0.Task2.V0.Lib.csproj", "{CFB92781-70A3-4667-9AEA-C6410CB6A795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AnishchenkoVA.Sprint0.Task2.V0.Test", "Tyuiu.AnishchenkoVA.Sprint0.Task2.V0.Test\Tyuiu.AnishchenkoVA.Sprint0.Task2.V0.Test.csproj", "{310292A6-98FE-4BBE-8BDD-6B62D0EC375A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +33,18 @@ Global
 		{7C2D5390-67BF-49A9-AC74-F581B33CEDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C2D5390-67BF-49A9-AC74-F581B33CEDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C2D5390-67BF-49A9-AC74-F581B33CEDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C524FAAF-163E-4F96-910B-FA4B4A522ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C524FAAF-163E-4F96-910B-FA4B4A522ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C524FAAF-163E-4F96-910B-FA4B4A522ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C524FAAF-163E-4F96-910B-FA4B4A522ECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB92781-70A3-4667-9AEA-C6410CB6A795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB92781-70A3-4667-9AEA-C6410CB6A795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB92781-70A3-4667-9AEA-C6410CB6A795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB92781-70A3-4667-9AEA-C6410CB6A795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310292A6-98FE-4BBE-8BDD-6B62D0EC375A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310292A6-98FE-4BBE-8BDD-6B62D0EC375A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310292A6-98FE-4BBE-8BDD-6B62D0EC375A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310292A6-98FE-4BBE-8BDD-6B62D0EC375A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +52,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9EC16329-1123-49EF-BA40-1C941BC89ABD} = {3A2B9D9C-69A9-4DD1-898D-82FD89FF8F6D}
 		{7C2D5390-67BF-49A9-AC74-F581B33CEDAE} = {AF890A86-810B-4BF5-8463-40BA28EAD220}
+		{C524FAAF-163E-4F96-910B-FA4B4A522ECC} = {B47CA59F-3CEE-4D49-A836-88677BF3A803}
+		{CFB92781-70A3-4667-9AEA-C6410CB6A795} = {B47CA59F-3CEE-4D49-A836-88677BF3A803}
+		{310292A6-98FE-4BBE-8BDD-6B62D0EC375A} = {B47CA59F-3CEE-4D49-A836-88677BF3A803}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF69B900-D236-4130-B920-C1E61C2F4DD1}

@@ -9,7 +9,7 @@
 
         public static int Subtraction(int a, int b)
         {
-            return (a - b);
+            return a - b;
         }
 
         public static int Multiplication(int a, int b)
